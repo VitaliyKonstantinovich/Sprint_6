@@ -1,0 +1,26 @@
+# Папки виртуального окружения
+venv/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Кэш Pytest
+.pytest_cache/
+
+# Папка с HTML-отчетом (его не нужно хранить в репозитории)
+allure-report/
+
+# Лог-файлы
+*.log
+
+# Системные файлы macOS и Windows
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.idea/
+.vscode/
